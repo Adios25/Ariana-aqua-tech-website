@@ -1241,6 +1241,11 @@ section[id] {
     align-items: start;
   }
 
+  #products .section-heading--row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
   .filter-group {
     justify-self: start;
     width: 100%;
